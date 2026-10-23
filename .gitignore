@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 虚拟环境
+*.env/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 模型权重文件（太大，GitHub 限制 100MB）
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+roberta_product_cls/
+
+# 数据集缓存
+datasets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.log
